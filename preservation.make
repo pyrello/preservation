@@ -5,11 +5,15 @@ projects[] = "drupal"
 
 ; Modules
 projects[] = "admin"
+projects[] = "apachesolr"
+projects[] = "context"
 projects[] = "ctools"
 projects[] = "date"
+projects[] = "delta"
 projects[] = "devel"
 projects[] = "features"
 projects[] = "migrate"
+projects[] = "superfish"
 projects[] = "views"
 
 ; Modules :: Preservation
@@ -21,3 +25,9 @@ projects[migrate_preservation][type] = "module"
 projects[] = "omega"
 projects[] = "rubik"
 projects[] = "tao"
+
+; Themes :: Preservation
+projects[advantage][download][type] = "git"
+projects[advantage][download][url] = "git://github.com/webgeeks/advantage.git"
+projects[advantage][type] = "theme"
+

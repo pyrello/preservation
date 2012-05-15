@@ -4,7 +4,8 @@ api = 2
 
 ; Modules
 projects[] = "admin"
-projects[] = "apachesolr"
+; apachesolr needs to be dev for now to avoid taxonomy dependency issue
+projects[apachesolr][version] = "1.x-dev"
 projects[] = "context"
 projects[] = "ctools"
 projects[] = "date"

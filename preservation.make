@@ -46,3 +46,7 @@ projects[advantage][download][type] = "git"
 projects[advantage][download][url] = "git://github.com/webgeeks/advantage.git"
 projects[advantage][download][branch] = "7.x-1.x"
 
+; Libraries
+libraries[superfish][download][type] = "git"
+libraries[superfish][download][url] = "git://github.com/mehrpadin/Superfish-for-Drupal.git"
+libraries[superfish][directory_name] = "superfish"

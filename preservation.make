@@ -1,7 +1,6 @@
 ; This is the makefile for the Preservation install profile
 core = 7.x
 api = 2
-projects[] = "drupal"
 
 ; Modules
 projects[] = "admin"

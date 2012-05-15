@@ -6,6 +6,7 @@ api = 2
 projects[] = "admin"
 ; apachesolr needs to be dev for now to avoid taxonomy dependency issue
 projects[apachesolr][version] = "1.x-dev"
+projects[apachesolr][patch][1410256] = "http://drupal.org/files/apachesolr-taxonomy-dependecy.patch"
 projects[] = "context"
 projects[] = "ctools"
 projects[] = "date"

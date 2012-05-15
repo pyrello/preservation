@@ -17,6 +17,7 @@ projects[] = "migrate"
 projects[] = "pathauto"
 projects[] = "purr_messages"
 projects[] = "superfish"
+projects[] = "token"
 projects[] = "views"
 
 ; Modules :: Preservation

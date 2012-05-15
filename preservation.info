@@ -21,13 +21,13 @@ dependencies[] = rdf
 
 ; Contrib
 dependencies[] = admin
-;dependencies[] = apachesolr
-;dependencies[] = apachesolr_search
+dependencies[] = apachesolr
+dependencies[] = apachesolr_search
 dependencies[] = context
 dependencies[] = ctools
-;dependencies[] = current_search
+dependencies[] = current_search
 dependencies[] = delta
-;dependencies[] = facetapi
+dependencies[] = facetapi
 dependencies[] = libraries
 dependencies[] = migrate
 dependencies[] = migrate_preservation

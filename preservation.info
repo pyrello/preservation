@@ -21,8 +21,8 @@ dependencies[] = rdf
 
 ; Contrib
 dependencies[] = admin
-dependencies[] = apachesolr
-dependencies[] = apachesolr_search
+;dependencies[] = apachesolr
+;dependencies[] = apachesolr_search
 dependencies[] = context
 dependencies[] = ctools
 dependencies[] = current_search

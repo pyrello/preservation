@@ -63,6 +63,8 @@ function standard_install() {
   filter_format_save($full_html_format);
 
   // Enable some standard blocks.
+	theme_enable(array('theme_default' => 'advantage'));
+	variable_set('theme_default', 'advantage');
   $default_theme = variable_get('theme_default', 'advantage');
   $admin_theme = 'rubik';
   $blocks = array(

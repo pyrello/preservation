@@ -63,8 +63,6 @@ function standard_install() {
   filter_format_save($full_html_format);
 
   // Enable some standard blocks.
-	theme_enable(array('theme_default' => 'advantage'));
-	variable_set('theme_default', 'advantage');
   $default_theme = variable_get('theme_default', 'advantage');
   $admin_theme = 'rubik';
   $blocks = array(
@@ -172,12 +170,20 @@ function standard_install() {
   // Update the menu router information.
   menu_rebuild();
 
-  // Enable the admin theme.
-  /*db_update('system')
+	// Any themes without keys here will get numeric keys and so will be enabled,
+	// but not placed into variables.
+	$enable = array(
+		'theme_default' => 'advantage',
+		'admin_theme' => 'rubik',
+	);
+	theme_enable($enable);
+ 
+ 	// Enable the admin theme.
+  db_update('system')
     ->fields(array('status' => 1))
     ->condition('type', 'theme')
-    ->condition('name', '')
-    ->execute();*/
+    ->condition('name', 'rubik')
+    ->execute();
   variable_set('admin_theme', 'rubik');
   variable_set('node_admin_theme', '1');
 }

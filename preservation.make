@@ -5,9 +5,10 @@ api = 2
 ; Modules
 projects[] = "admin"
 ; apachesolr needs to be dev for now to avoid taxonomy dependency issue
-projects[apachesolr][version] = "1.x-dev"
+projects[] = "apachesolr"
+;projects[apachesolr][version] = "1.x-dev"
 ;projects[apachesolr][patch][1418834] = "http://drupal.org/files/apachesolr-hook_info_fix-1418834-1.patch"
-projects[apachesolr][patch][1410256] = "http://drupal.org/files/apachesolr-taxonomy-dependecy.patch"
+;projects[apachesolr][patch][1410256] = "http://drupal.org/files/apachesolr-taxonomy-dependecy.patch"
 projects[] = "context"
 projects[] = "ctools"
 projects[] = "date"

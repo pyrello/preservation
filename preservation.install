@@ -177,7 +177,8 @@ function standard_install() {
 		'admin_theme' => 'rubik',
 	);
 	theme_enable($enable);
- 
+  variable_set('theme_default', 'advantage');
+	
  	// Enable the admin theme.
   db_update('system')
     ->fields(array('status' => 1))

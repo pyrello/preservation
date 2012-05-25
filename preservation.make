@@ -4,11 +4,7 @@ api = 2
 
 ; Modules
 projects[] = "admin"
-; apachesolr needs to be dev for now to avoid taxonomy dependency issue
 projects[] = "apachesolr"
-;projects[apachesolr][version] = "1.x-dev"
-;projects[apachesolr][patch][1418834] = "http://drupal.org/files/apachesolr-hook_info_fix-1418834-1.patch"
-;projects[apachesolr][patch][1410256] = "http://drupal.org/files/apachesolr-taxonomy-dependecy.patch"
 projects[] = "context"
 projects[] = "ctools"
 projects[] = "date"
@@ -41,12 +37,13 @@ projects[preservation_vocabularies][download][url] = "git://github.com/webgeeks/
 projects[preservation_vocabularies][download][branch] = "7.x-1.x"
 
 ; Themes
-projects[] = "omega"
-projects[] = "rubik"
-projects[] = "tao"
+projects[omega][subdir] = "contrib"
+projects[rubik][subdir] = "contrib"
+projects[tao][subdir] = "contrib"
 
 ; Themes :: Preservation
 projects[advantage][type] = "theme"
+projects[advantage][subdir] = "contrib"
 projects[advantage][download][type] = "git"
 projects[advantage][download][url] = "git://github.com/webgeeks/advantage.git"
 projects[advantage][download][branch] = "7.x-1.x"

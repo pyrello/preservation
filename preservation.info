@@ -4,9 +4,7 @@ core = 7.x
 
 ; Dependencies
 dependencies[] = block
-dependencies[] = color
 dependencies[] = contextual
-dependencies[] = dashboard
 dependencies[] = help
 dependencies[] = image
 dependencies[] = list
@@ -23,6 +21,20 @@ dependencies[] = rdf
 
 ; Contrib
 dependencies[] = admin
+;dependencies[] = apachesolr
+;dependencies[] = apachesolr_search
+dependencies[] = context
 dependencies[] = ctools
+dependencies[] = current_search
+dependencies[] = delta
+dependencies[] = facetapi
+dependencies[] = libraries
 dependencies[] = migrate
+dependencies[] = migrate_preservation
 dependencies[] = migrate_ui
+dependencies[] = pathauto
+dependencies[] = preservation_document
+dependencies[] = preservation_vocabularies
+dependencies[] = purr_messages
+dependencies[] = token
+dependencies[] = views

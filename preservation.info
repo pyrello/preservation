@@ -21,8 +21,6 @@ dependencies[] = rdf
 
 ; Contrib
 dependencies[] = admin
-;dependencies[] = apachesolr
-;dependencies[] = apachesolr_search
 dependencies[] = context
 dependencies[] = ctools
 dependencies[] = current_search
@@ -38,3 +36,5 @@ dependencies[] = preservation_vocabularies
 dependencies[] = purr_messages
 dependencies[] = token
 dependencies[] = views
+
+files[] = preservation.profile

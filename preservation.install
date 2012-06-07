@@ -16,7 +16,9 @@ function preservation_install() {
     variable_set('machinename', drush_get_option('machinename', ''));
     $machinename = variable_get('machinename', '');
     watchdog('preservation_install', '@machinename', array('@machinename' => $machinename));
-  }
+  } else {
+		watchdog('preservation_install', 'Drush is not available');
+	}
 
   // Add text formats.
   $filtered_html_format = array(

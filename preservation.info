@@ -34,6 +34,7 @@ dependencies[] = pathauto
 dependencies[] = preservation_document
 dependencies[] = preservation_vocabularies
 dependencies[] = purr_messages
+dependencies[] = superfish
 dependencies[] = token
 dependencies[] = views
 
